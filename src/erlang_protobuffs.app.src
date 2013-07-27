@@ -1,4 +1,4 @@
-{ application, protobuffs,
+{ application, erlang_protobuffs,
   [ { description, "Google protobuffs implementation for Erlang." },
     { vsn, "0.8.1" },
     { registered, [] },
