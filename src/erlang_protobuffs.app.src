@@ -3,6 +3,9 @@
     { vsn, "0.8.1" },
     { registered, [] },
     { applications, [kernel,stdlib] },
+    { modules, [
+        %MODULES%
+    ]},
     { env, [] }
   ]
 }.
